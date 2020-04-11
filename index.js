@@ -1,3 +1,9 @@
+window.addEventListener("load", fadeEffect);
+function fadeEffect() {
+  setTimeout(() => {
+    document.querySelector(".preloader").style.display = "none";
+  }, 3000);
+}
 document.querySelector("button").addEventListener("click", handleclick);
 
 function handleclick(e) {
