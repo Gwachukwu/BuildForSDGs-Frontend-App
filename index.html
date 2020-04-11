@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://victoriapagecomms.com/wp-content/uploads/2019/04/17-goals.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Build for SDGs</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/5c5867627a1fbd515af1bd68/1555447493997-V5XKQTRJ4YUBB33G1JB7/ke17ZwdGBToddI8pDm48kK3svdqmw2prsPjqjcUJoBVZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVGgxn0DEa35dK4t9GT6eHoWmuqrr3mtHJt8vSA1j2ufPD-3CTWZQ124CTRPXn-dnvM/actual+compass.jpg"
+        alt="SDGs logo"
+        width="50px"
+      />
+      <h1>Build for SDGs</h1>
+      <h2>Covid-19 Estimator</h2>
+    </header>
+    <main>
+      <form action="">
+        <section>
+          <label for="region">Region </label>
+          <input type="text" name="" id="region" required />
+          <label for="avgAge">Average Age </label>
+          <input type="number" name="" id="avgAge" required />
+          <label for="avgIn">Average Income in USD </label>
+          <input type="number" name="" id="avgIn" required />
+          <label for="avgPop">Average Daily Income Population </label>
+          <input type="number" name="" id="avgPop" />
+        </section>
+        <section>
+          <label for="period">Period Type</label>
+          <select name="" id="period">
+            <option value="days">Days</option>
+            <option value="weeks">Weeks</option>
+            <option value="months">Months</option>
+          </select>
+          <label for="time">Time to Elapse</label>
+          <input type="number" name="" id="time" required data-time-to-elapse />
+          <label for="cases">Reported Cases</label>
+          <input
+            type="number"
+            name=""
+            id="cases"
+            required
+            data-reported-cases
+          />
+          <label for="pop">Population</label>
+          <input type="number" name="" id="pop" required data-population />
+          <label for="beds">Total Hospital Beds</label>
+          <input
+            type="number"
+            name=""
+            id="beds"
+            required
+            data-total-hospital-beds
+          />
+        </section>
+      </form>
+      <button data-go-estimate>Estimate</button>
+
+      <div class="results">
+        <p class="impact"></p>
+        <p class="severe"></p>
+      </div>
+    </main>
+    <script src="./estimator.js" type="text/javascript"></script>
+    <script src="./index.js" type="text/javascript"></script>
+  </body>
+</html>
