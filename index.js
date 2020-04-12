@@ -30,7 +30,7 @@ function handleclick(e) {
     Currently Infected: ${imp.currentlyInfected}<br>
     Infections By Time: ${imp.infectionsByRequestedTime}<br>
     Severe Cases By Time: ${imp.severeCasesByRequestedTime}<br>
-    Hospital Bed Availability: ${imp.hospitalBedsByRequestedTime}:<br>
+    Hospital Bed Availability: ${imp.hospitalBedsByRequestedTime}<br>
     Cases For ICU: ${imp.casesForICUByRequestedTime}<br>
     Cases For Ventilators: ${imp.casesForVentilatorsByRequestedTime}<br>
     Dollars In Flight: ${imp.dollarsInFlight}`;
@@ -42,7 +42,7 @@ function handleclick(e) {
     Currently Infected: ${sev.currentlyInfected}<br>
     Infections By Time: ${sev.infectionsByRequestedTime}<br>
     Severe Cases By Time: ${sev.severeCasesByRequestedTime}<br>
-    Hospital Bed Availability: ${sev.hospitalBedsByRequestedTime}:<br>
+    Hospital Bed Availability: ${sev.hospitalBedsByRequestedTime}<br>
     Cases For ICU: ${sev.casesForICUByRequestedTime}<br>
     Cases For Ventilators: ${sev.casesForVentilatorsByRequestedTime}<br>
     Dollars In Flight: ${sev.dollarsInFlight}`;
